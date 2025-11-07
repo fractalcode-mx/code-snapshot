@@ -121,3 +121,9 @@ Run the script without arguments to process all files in the configured project.
 
 ```bash
 python src/snapshot_generator.py
+```
+
+Run tree only
+```bash
+python src/snapshot_generator.py --tree-only
+```
