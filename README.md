@@ -1,6 +1,23 @@
-<p align="center">
-  <img src="./assets/logo.png" alt="Code Snapshot Logo" width="150">
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://fractalcode.com.mx" target="_blank">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/fractalcode-dark-background.png" width="450">
+            <source media="(prefers-color-scheme: light)" srcset="./assets/fractalcode-dark-background.png" width="450">
+            <img alt="Fractalcode Logo" src="./assets/fractalcode-dark-background.png" width="450">
+          </picture>
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <img src="./assets/logo.png" alt="Code Snapshot Logo" width="150">
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 
 # Code Snapshot by Fractalcode
 
@@ -70,44 +87,35 @@ Follow these steps to set up the environment and prepare the tool for use.
             "node_modules",
             "vendor",
             ".venv",
+            "venv",
             ".git",
             ".vscode",
             ".DS_Store",
+            "composer.lock",
             "output"
         ],
         "ignored_file_extensions": [
-        ".jpg",
-        ".jpeg",
-        ".png",
-        ".gif",
-        ".bmp",
-        ".svg",
-        ".ico",
-        ".woff",
-        ".woff2",
-        ".ttf",
-        ".otf",
-        ".eot",
-        ".zip",
-        ".tar",
-        ".gz",
-        ".rar",
-        ".7z",
-        ".pdf",
-        ".doc",
-        ".docx",
-        ".xls",
-        ".xlsx",
-        ".ppt",
-        ".pptx",
-        ".psd",
-        ".ai",
-        ".sketch",
-        ".db",
-        ".sqlite",
-        ".md",
-        ".map"
-    ]
+            // Images
+            ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".ico",
+
+            // Fonts
+            ".woff", ".woff2", ".ttf", ".otf", ".eot",
+
+            // Compressed Archives
+            ".zip", ".tar", ".gz", ".rar", ".7z",
+
+            // Documents
+            ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx",
+
+            // Design & Graphics Source Files
+            ".psd", ".ai", ".sketch",
+
+            // Database Files
+            ".db", ".sqlite",
+
+            // Development & Metadata
+            ".md", ".map"
+        ]
     }
     ```
 
