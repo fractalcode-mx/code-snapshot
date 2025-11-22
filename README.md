@@ -1,11 +1,7 @@
 <div align="center">
-  <a href="https://fractalcode.com.mx" target="_blank">
     <img alt="Fractalcode Logo" src="./assets/fractalcode.png" width="150">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/fractalcode-mx/code-snapshot" target="_blank">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img alt="Code Snapshot Logo" src="./assets/logo-adjusted.png" width="150">
-  </a>
 </div>
 
 # Code Snapshot by Fractalcode
