@@ -1,21 +1,12 @@
 <div align="center">
-  <table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td align="center" valign="middle" >
-        <a href="https://fractalcode.com.mx" target="_blank">
-          <img alt="Fractalcode Logo" src="./assets/fractalcode.png" width="150">
-        </a>
-      </td>
-      <td align="center" valign="middle" style="padding-left: 20px;">
-        <a href="https://github.com/fractalcode-mx/code-snapshot" target="_blank">
-          <img alt="Code Snapshot Logo" src="./assets/logo.png"  width="210">
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://fractalcode.com.mx" target="_blank">
+    <img alt="Fractalcode Logo" src="./assets/fractalcode.png" width="150">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/fractalcode-mx/code-snapshot" target="_blank">
+    <img alt="Code Snapshot Logo" src="./assets/logo-adjusted.png" width="150">
+  </a>
 </div>
-
-
 
 # Code Snapshot by Fractalcode
 
