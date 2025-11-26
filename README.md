@@ -80,25 +80,12 @@ Follow these steps to set up the environment and prepare the tool for use.
             "output"
         ],
         "ignored_file_extensions": [
-            // Images
             ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".ico",
-
-            // Fonts
             ".woff", ".woff2", ".ttf", ".otf", ".eot",
-
-            // Compressed Archives
             ".zip", ".tar", ".gz", ".rar", ".7z",
-
-            // Documents
             ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx",
-
-            // Design & Graphics Source Files
             ".psd", ".ai", ".sketch",
-
-            // Database Files
             ".db", ".sqlite",
-
-            // Development & Metadata
             ".md", ".map"
         ]
     }
